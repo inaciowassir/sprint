@@ -1,0 +1,18 @@
+{
+    "require-dev":
+    {
+        "fzaninotto/faker" : "1.9.*",
+        "vlucas/phpdotenv" : "4.2"
+    },    
+    "autoload": 
+	{
+        "psr-4": 
+		{
+			"sprint\\": ""
+		},
+		"files": ["app/helpers/Exposer.php"]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.4"
+    }
+}
